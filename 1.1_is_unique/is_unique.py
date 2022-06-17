@@ -64,10 +64,10 @@ def isUnique_3(text: str) -> bool:
 
 
 
-str_1 = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit";
-str_2 = "abcdefghijklmnopqrstuvwxyz ";
+str_1 = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"
+str_2 = "abcdefghijklmnopqrstuvwxyz "
 
-print(f"isUnique_1 - ({len(str_1)}) \"{str_1}\":");
+print(f"isUnique_1 - ({len(str_1)}) \"{str_1}\":")
 t_ini = time.process_time_ns()/1000000
 result = isUnique_1(str_1)
 t_fin = time.process_time_ns()/1000000
@@ -76,7 +76,7 @@ if result:
 else:
     print(f"No son caracteres únicos.\t Tiempo (milisec): {t_fin - t_ini}\n")
 
-print(f"isUnique_1 - ({len(str_2)}) \"{str_2}\":");
+print(f"isUnique_1 - ({len(str_2)}) \"{str_2}\":")
 t_ini = time.process_time_ns()/1000000
 result = isUnique_1(str_2)
 t_fin = time.process_time_ns()/1000000
@@ -87,7 +87,7 @@ else:
 
 
 
-print(f"isUnique_2 - ({len(str_1)}) \"{str_1}\":");
+print(f"isUnique_2 - ({len(str_1)}) \"{str_1}\":")
 t_ini = time.process_time_ns()/1000000
 result = isUnique_2(str_1)
 t_fin = time.process_time_ns()/1000000
@@ -96,7 +96,7 @@ if result:
 else:
     print(f"No son caracteres únicos.\t Tiempo (milisec): {t_fin - t_ini}\n")
 
-print(f"isUnique_2 - ({len(str_2)}) \"{str_2}\":");
+print(f"isUnique_2 - ({len(str_2)}) \"{str_2}\":")
 t_ini = time.process_time_ns()/1000000
 result = isUnique_2(str_2)
 t_fin = time.process_time_ns()/1000000
@@ -107,7 +107,7 @@ else:
 
 
 
-print(f"isUnique_3 - ({len(str_1)}) \"{str_1}\":");
+print(f"isUnique_3 - ({len(str_1)}) \"{str_1}\":")
 t_ini = time.process_time_ns()/1000000
 result = isUnique_3(str_1)
 t_fin = time.process_time_ns()/1000000
@@ -116,7 +116,7 @@ if result:
 else:
     print(f"No son caracteres únicos.\t Tiempo (milisec): {t_fin - t_ini}\n")
 
-print(f"isUnique_3 - ({len(str_2)}) \"{str_2}\":");
+print(f"isUnique_3 - ({len(str_2)}) \"{str_2}\":")
 t_ini = time.process_time_ns()/1000000
 result = isUnique_3(str_2)
 t_fin = time.process_time_ns()/1000000
