@@ -1,4 +1,4 @@
-"""This is the solution for the Check permutation problem, in Python
+"""This is the solution for the urlify problem, in Python
 """
 
 __author__ = "Ruvart"
