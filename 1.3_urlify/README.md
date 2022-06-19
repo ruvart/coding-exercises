@@ -18,3 +18,4 @@ Languages used in this exercise so far:
 - PHP
 - JS
 - Python
+- Ruby
