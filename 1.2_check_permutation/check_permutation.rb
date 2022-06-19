@@ -9,25 +9,7 @@ This is the solution for the Check permutation problem, in Ruby
 require 'date'
 
 
-=begin def checkPermutation_1?(str_1, str_2)
-    str_len = str_1.length
-
-    if str_len != str_2.length
-        return false
-    end
-
-    sorted_str_1 = str_1.chars
-    sorted_str_2 = str_2.chars
-
-    if sorted_str_1 & sorted_str_2 == sorted_str_1
-        return true
-    end
-
-    return false
-end =end
-
-
-def checkPermutation_2?(str_1, str_2)
+def checkPermutation_1?(str_1, str_2)
     str_len = str_1.length
 
     if str_len != str_2.length
@@ -45,7 +27,7 @@ def checkPermutation_2?(str_1, str_2)
 end
 
 
-def checkPermutation_3?(str_1, str_2)
+def checkPermutation_2?(str_1, str_2)
     str_len = str_1.length
 
     if str_len != str_2.length
@@ -62,6 +44,24 @@ def checkPermutation_3?(str_1, str_2)
         end
 
         i = i + 1
+    end
+
+    return true
+end
+
+
+def checkPermutation_3?(str_1, str_2)
+    str_len = str_1.length
+
+    if str_len != str_2.length
+        return false
+    end
+
+    sorted_str_1 = str_1.chars.sort(&:casecmp)
+    sorted_str_2 = str_2.chars.sort(&:casecmp)
+
+    if sorted_str_1 != sorted_str_2
+        return false
     end
 
     return true
