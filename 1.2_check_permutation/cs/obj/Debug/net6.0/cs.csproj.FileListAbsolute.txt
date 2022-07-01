@@ -1,0 +1,15 @@
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\obj\Debug\net6.0\cs.csproj.AssemblyReference.cache
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\obj\Debug\net6.0\cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\obj\Debug\net6.0\cs.AssemblyInfoInputs.cache
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\obj\Debug\net6.0\cs.AssemblyInfo.cs
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\obj\Debug\net6.0\cs.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\bin\Debug\net6.0\cs.exe
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\bin\Debug\net6.0\cs.deps.json
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\bin\Debug\net6.0\cs.runtimeconfig.json
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\bin\Debug\net6.0\cs.dll
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\bin\Debug\net6.0\cs.pdb
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\obj\Debug\net6.0\cs.dll
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\obj\Debug\net6.0\refint\cs.dll
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\obj\Debug\net6.0\cs.pdb
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\obj\Debug\net6.0\cs.genruntimeconfig.cache
+C:\xampp\htdocs\otros\Ejercicios\1.2_check_permutation\cs\obj\Debug\net6.0\ref\cs.dll

@@ -19,3 +19,5 @@ Languages used in this exercise so far:
 - JS
 - Python
 - Ruby
+- C#
+- Clojure
