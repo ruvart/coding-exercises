@@ -19,7 +19,7 @@ def isUnique_1?(str)
     str_len = str.length
 
     if str_len < 2
-        return false
+        return true
     end
 
     sorted_str = str.chars.sort(&:casecmp)
@@ -45,7 +45,7 @@ def isUnique_2?(str)
     str_len = str.length
 
     if str_len < 2
-        return false
+        return true
     end
 
     str_array_unique = str.chars.uniq
@@ -68,7 +68,7 @@ def isUnique_3?(str)
     str_len = str.length
 
     if str_len < 2
-        return false
+        return true
     end
 
     for x in (1..(str_len-1))

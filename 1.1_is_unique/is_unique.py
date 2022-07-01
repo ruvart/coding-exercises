@@ -17,7 +17,7 @@ def isUnique_1(text: str) -> bool:
     str_len = len(text)
 
     if str_len < 2:
-        return False
+        return True
 
     c_str = Counter(text)
 
@@ -36,7 +36,7 @@ def isUnique_2(text: str) -> bool:
     str_len = len(text)
 
     if str_len < 2:
-        return False
+        return True
 
     sorted_str = sorted(text)
     for x in range(1,str_len):
@@ -53,7 +53,7 @@ def isUnique_3(text: str) -> bool:
     str_len = len(text)
 
     if str_len < 2:
-        return False
+        return True
 
     for x in range(str_len):
         if text.find(text[x],x+1) != -1:
