@@ -12,3 +12,4 @@ Languages used in this exercise so far:
 - Ruby
 - C#
 - Clojure
+- Swift
